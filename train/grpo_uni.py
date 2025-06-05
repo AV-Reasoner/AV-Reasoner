@@ -215,8 +215,8 @@ class VTGGRPOReward:
 @dataclass
 class ModelArguments:
     # LLM Arguments
-    model_type: Optional[str] = field(default="videollama2", metadata={"help": "Model type selected in the list: "})
-    model_path: Optional[str] = field(default="lmsys/vicuna-7b-v1.5")
+    model_type: Optional[str] = field(default="", metadata={"help": "Model type selected in the list: "})
+    model_path: Optional[str] = field(default="")
     version: Optional[str] = field(default="v1", metadata={"help": "Version of the conversation template."})
     freeze_backbone: bool = field(default=False, metadata={"help": "Whether to freeze the LLM backbone."})
     tune_adapter_llm: bool = field(default=False)
