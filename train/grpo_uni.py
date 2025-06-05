@@ -25,7 +25,6 @@ from datasets import load_dataset
 
 from trainer import OLAGRPOUniTrainer
 from trl import GRPOConfig, ModelConfig, ScriptArguments, TrlParser, get_peft_config
-from swanlab.integration.transformers import SwanLabCallback
 
 import numpy as np
 
@@ -629,10 +628,7 @@ def main(script_args, training_args, model_args):
     trainer_cls = OLAGRPOUniTrainer
     import bitsandbytes as bnb
     optimizer_cls = bnb.optim.AdamW8bit
-    swanlab_callback = SwanLabCallback(
-        project="avrft_uni",
-        experiment_name="AV-RFT-UNI",
-    )
+
     # Initialize the GRPO trainer
     trainer = trainer_cls(
         model_id=model_args.model_name_or_path,
@@ -643,7 +639,7 @@ def main(script_args, training_args, model_args):
         peft_config=get_peft_config(model_args),
         attn_implementation=model_args.attn_implementation,
         max_pixels=script_args.max_pixels,
-        min_pixels=script_args.min_pixels,callbacks=[swanlab_callback],    )
+        min_pixels=script_args.min_pixels    )
 
     checkpoints = [d for d in os.listdir(training_args.output_dir) if d.startswith("checkpoint-")]
 
