@@ -1,13 +1,15 @@
 <h3 align="center">AV-Reasoner: Improving and Benchmarking Clue-Grounded Audio-Visual Counting for MLLMs</h3>
-<p align="center">
-    <img src="assets/teaser.jpg" width="800"/>
-<p>
 
 <h5 align="center">
 
 [![hf_checkpoint](https://img.shields.io/badge/%F0%9F%A4%97-AV%E2%80%90Reasoner-9C276A.svg)](https://huggingface.co/lulidong/AV-Reasoner) [![hf_data](https://img.shields.io/badge/%F0%9F%A4%97-CG%E2%80%90AV%E2%80%90Counting-9C276A.svg)](https://huggingface.co/datasets/CG-Bench/CG-AV-Counting) [![arXiv](https://img.shields.io/badge/Arxiv-25xx.xxxxx-AD1C18.svg?logo=arXiv)](https://arxiv.org/pdf/25xx.xxxxx) [![Webpage](https://img.shields.io/badge/Webpage-AV%E2%80%90Reasoner-<COLOR>.svg)](https://av-reasoner.github.io/) <br>
 
 </h5>
+
+<p align="center">
+    <img src="assets/teaser.jpg" width="800"/>
+<p>
+
 
 ## 🛠️ Requirements and Installation
 ### Training AV-Reasoner
