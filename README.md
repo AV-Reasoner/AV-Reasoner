@@ -1,4 +1,4 @@
-<h3 align="center">AV-Reasoner: Improving and Benchmarking Clue-Grounded Audio-Visual Counting for MLLMs</h3>
+<h2 align="center">AV-Reasoner: Improving and Benchmarking Clue-Grounded Audio-Visual Counting for MLLMs</h2>
 
 <h5 align="center">
 
