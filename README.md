@@ -67,6 +67,10 @@ cd train
 bash train.sh
 ```
 
+## 🛠️ TODO List
+- [ ] Support VLMEvalKit and lmm-evals
+- [ ] Release Evaluation Scripts for AV-Reasoner on Other Benchmarks
+
 ## 🥰 Acknowledgement
 
 - Our codebase is conducted on [Open-R1-Video](https://github.com/Wang-Xiaodong1899/Open-R1-Video) and [Ola](https://github.com/Ola-Omni/Ola)
