@@ -82,7 +82,7 @@ def process_item(item):
         print(f"Video not found: {video_path}")
         return
 
-    prompt = f"Please answer the question '{item['question_en']}' with a number. Just output the number itself, don't output anything else."
+    prompt = f"Please answer the question '{item['question']}' with a number. Just output the number itself, don't output anything else."
     try:
         result = chat_with_gpt(num_frames=50, video_path=video_path, prompt=prompt)
         if "choices" in result:

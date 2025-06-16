@@ -74,3 +74,24 @@ bash train.sh
 ## 🥰 Acknowledgement
 
 - Our codebase is conducted on [Open-R1-Video](https://github.com/Wang-Xiaodong1899/Open-R1-Video) and [Ola](https://github.com/Ola-Omni/Ola)
+
+## 📑 Citation
+```
+@misc{lu2025avreasoner,
+    title={AV-Reasoner: Improving and Benchmarking Clue-Grounded Audio-Visual Counting for MLLMs}, 
+    author={Lidong Lu and Guo Chen and Zhiqi Li and Yicheng Liu and Tong Lu},
+    year={2025},
+    eprint={2506.05328},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV},
+    url={https://arxiv.org/abs/2506.05328}, 
+}
+@misc{chen2024cgbench,
+    title={CG-Bench: Clue-grounded Question Answering Benchmark for Long Video Understanding}, 
+    author={Guo Chen and Yicheng Liu and Yifei Huang and Yuping He and Baoqi Pei and Jilan Xu and Yali Wang and Tong Lu and Limin Wang},
+    year={2024},
+    eprint={2412.12075},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+```
