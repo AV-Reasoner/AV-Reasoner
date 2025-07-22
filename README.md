@@ -10,6 +10,9 @@
     <img src="assets/teaser.jpg" width="800"/>
 <p>
 
+## 📰 Updates
+- [2025/07/22]
+    - Since errors in a few clue annotations when converting frame indexes to timestamps, there were errors in the previous benchmark leaderboard, we have reevaluated all models and have updated [the new leaderboard](https://av-reasoner.github.io/).
 
 ## 🛠️ Requirements and Installation
 ### Training AV-Reasoner
